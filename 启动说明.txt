@@ -1,0 +1,40 @@
+=====================================
+  数字人格分身 - 快速启动指南
+=====================================
+
+📋 前置要求：
+- 已安装 Node.js (建议16版本以上)
+- 已安装 npm 或 yarn
+
+🚀 启动步骤：
+
+1. 打开命令行（PowerShell 或 CMD）
+
+2. 进入项目目录：
+   cd d:\MBTI
+
+3. 安装依赖（首次运行需要）：
+   npm install
+
+4. 启动开发服务器：
+   npm run dev
+
+5. 等待看到类似输出：
+   VITE v4.x.x  ready in xxx ms
+   
+   ➜  Local:   http://localhost:5173/
+   ➜  Network: use --host to expose
+
+6. 在浏览器中打开：
+   http://localhost:5173
+
+🎉 开始享受测试吧！
+
+=====================================
+💡 提示：
+- 如果npm速度慢，可以使用淘宝镜像：
+  npm config set registry https://registry.npmmirror.com
+  
+- 遇到问题可以查看 README.md 文件
+
+=====================================
