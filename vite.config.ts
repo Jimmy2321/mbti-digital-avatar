@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // GitHub Pages 需要相对路径
+  base: '/mbti-digital-avatar/', // GitHub Pages 需要相对路径
   server: {
     host: '0.0.0.0', // 监听所有网络接口，允许外部访问
     port: 5173,      // 指定端口
