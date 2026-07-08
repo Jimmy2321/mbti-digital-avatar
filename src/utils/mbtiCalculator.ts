@@ -1,5 +1,6 @@
-import { Question, MBTIScore, PersonalityResult } from '../types';
+import { MBTIScore, PersonalityResult } from '../types';
 import { personalityDatabase } from '../data/personalityData';
+import { questions } from '../data/questions';
 
 export function calculateMBTI(answers: number[]): string {
   const score: MBTIScore = {
@@ -36,6 +37,3 @@ export function calculateMBTI(answers: number[]): string {
 export function getPersonalityResult(mbti: string): PersonalityResult {
   return personalityDatabase[mbti] || personalityDatabase['INTP']; // 默认返回INTP
 }
-
-// 需要从questions导入
-import { questions } from '../data/questions';
